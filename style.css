@@ -24,3 +24,9 @@ h1{
     color: #333;
     margin-bottom: 20px;
 }
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
