@@ -15,3 +15,7 @@ function verificarPalpite() {
 
 palpites.textContent += palpiteUsuario + " ";
 
+if (palpiteUsuario === numeroAleatorio) {
+    ultimoResultado.textContent = "Parabéns! Você Acertou!";
+    
+}
