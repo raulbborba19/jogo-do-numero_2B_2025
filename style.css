@@ -49,3 +49,15 @@ h1{
     cursor: pointer;
     transition: background-color 0.3 ease;
 }
+
+.botaoReiniciar {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: painter;
+    transition: background-color 0.0s case;
