@@ -44,3 +44,11 @@ function reiniciarjogo() {
     for (const paragrafoReiniciar of paragrafosReinciar)
         paragrafosReiniciar.textcontent = "";
 }
+
+botaoReiniciar.parentNode.removeChild(botaoReiniciar);
+campoPalpite.disabled = false;
+envioPalpite.disabled = false;
+campoPalpite.value = "";
+campoPalpite.focus();
+ultimeResultado.style.backgroundColor = 'white';
+numeroAleatorio = Math.floor(Math.random())
